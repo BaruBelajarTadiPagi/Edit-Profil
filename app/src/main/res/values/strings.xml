@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EditProfile</string>
+    <string name="masukan_kewarganegaraan">Masukan Kewarganegaraan</string>
+    <string name="masukan_alamat">Masukan Alamat</string>
+    <string name="masukan_gender">Masukan Gender</string>
+    <string name="masukan_umur">Masukan Umur</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="save">Save</string>
+</resources>

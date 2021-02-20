@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity"
+    android:orientation="vertical"
+    android:layout_margin="18dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_nama"
+        android:id="@+id/ed_Nama"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_umur"
+        android:id="@+id/ed_Umur"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_gender"
+        android:id="@+id/ed_Gender"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_alamat"
+        android:id="@+id/ed_Alamat"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_kewarganegaraan"
+        android:id="@+id/ed_Negara"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/save"
+        android:id="@+id/btn_Save"
+        android:backgroundTint="@color/teal_700"/>
+
+</LinearLayout>
